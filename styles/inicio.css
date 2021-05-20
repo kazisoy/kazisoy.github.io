@@ -1,0 +1,92 @@
+/*Banner*/
+.kazi-banner {
+    height: 200px;
+    font-family: "Aisha Script";
+    text-align: center;
+    background-image: url(../recourses/backgrounds/fondo-axial.jpg);
+    background-size: 100%;
+    background-position: 0px 320px;
+    background-position: center;
+    max-width: 100%;
+    width: auto;
+    height: 200px;
+    border: 10px rgba(53, 28, 5, 0.70) solid;
+    margin: 20px 0px 0px 0px;
+}
+
+/*Presentacion*/
+h1 {
+    font-size: 5rem;
+    color: rgb(245, 207, 43);
+    font-weight: 100;
+    margin: 10px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #F1C877;
+    font-weight: 100;
+    margin: 0px 0px 0px 0px;
+}
+
+.presentation {
+    display: inline-block;
+    text-align: left;
+    margin: 30px 90px;
+    font-family: Gott;
+}
+
+.eslogan {
+    float: right;
+    text-align: center;
+    margin: 90px 90px;
+    font-family: "yesteryear";
+}
+
+.presentation,
+.eslogan {
+    width: 33%;
+    font-size: 1.3rem;
+}
+
+/*Sabias que*/
+
+h3 {
+    font-family: "aisha script";
+    font-size: 2rem;
+    margin: 0px;
+
+}
+
+.sabias-imagen {
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 0px 200px 0px 0px;
+}
+
+.dato-uno,
+.dato-dos,
+.dato-tres {
+    font-family: gott;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.dato-uno {
+    margin: 80px 600px 80px 80px;
+}
+
+.dato-dos {
+    max-width: 49%;
+    width: auto;
+    height: auto;
+}
+
+.dato-tres {
+    float: right;
+    max-width: 49%;
+    width: auto;
+    height: auto;
+}

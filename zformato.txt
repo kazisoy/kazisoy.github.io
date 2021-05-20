@@ -1,0 +1,20 @@
+<header>
+<div navegation-bar>                flex
+    FIRMA                           hijo
+    <div>                           hijo/flex
+        ANCLAS X5                       sub-hijo
+    </div>
+    <div navegation-bar-redes>      hijo    
+        ANCLA
+            IMAGEN
+        ANCLA
+            IMAGEN
+    </div>
+</div>
+</header>
+<div>
+    CONTENIDO
+</div>
+<footer>
+    PIE
+</footer>

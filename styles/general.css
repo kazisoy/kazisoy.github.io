@@ -1,0 +1,93 @@
+/*Barra de acciones*/
+
+header { 
+    height: 100%;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.navegation-bar-pestanas {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.navegation-bar-pestanas-inicio,
+.navegation-bar-pestanas-portafolio,
+.navegation-bar-pestanas-comisiones,
+.navegation-bar-pestanas-acercade,
+.navegation-bar-pestanas-contacto {
+    font-family: "Yesteryear";
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 1% 1%;
+    text-align: center;
+    min-width: 10%;
+}
+
+.navegation-bar-pestanas-inicio:visited,
+.navegation-bar-pestanas-portafolio:visited,
+.navegation-bar-pestanas-comisiones:visited,
+.navegation-bar-pestanas-acercade:visited,
+.navegation-bar-pestanas-contacto:visited {
+    font-family: "Yesteryear";
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 1% 1%;
+    text-align: center;
+    min-width: 10%;
+}
+
+.navegation-bar {
+    width: 100%;
+    display: grid;
+    grid-template: auto / 8% 1fr 10%
+}
+
+.navegation-bar-firma {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.navegation-bar-redes {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.navegation-bar-redes-facebook,
+.navegation-bar-redes-gmail {
+    max-width: 45%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+/*Fondo*/
+
+.content {
+    height: 100%;
+}
+
+
+body {
+    background-image: url(../recourses/backgrounds/papel-1900x1200.jpg);
+    background-size: contain;
+}
+
+/*Pie de pagina*/
+
+footer {
+    height: 100%;
+    padding: 10px;
+    background-color: saddlebrown;
+    text-align: center;
+}
