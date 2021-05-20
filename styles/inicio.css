@@ -37,6 +37,8 @@ h2 {
     border-style: solid;
     border-width: 10px;
     border-collapse: collapse;
+        align-items: center;
+    justify-content: center;
 }
 
 .eslogan {
@@ -79,6 +81,8 @@ h3 {
     margin: 10px;
     text-align: center;
     color: rgb(84, 27, 33);
+    align-items: center;
+    justify-content: center;
 }
 
 .datos p {
@@ -98,39 +102,4 @@ h3 {
     border-color: rgba(53, 28, 5, 0.70);
     border-style: solid;
     border-width: 10px;
-}
-
-/*
-.sabias-imagen {
-    max-width: 30%;
-    width: auto;
-    height: auto;
-    float: right;
-    margin: 0px 200px 0px 0px;
-}
-
-.dato-uno,
-.dato-dos,
-.dato-tres {
-    font-family: gott;
-    font-size: 1.2rem;
-    text-align: center;
-    color: rgb(84, 27, 33);
-}
-
-.dato-uno {
-    margin: 80px 600px 80px 80px;
-}
-
-.dato-dos {
-    max-width: 49%;
-    width: auto;
-    height: auto;
-}
-
-.dato-tres {
-    float: right;
-    max-width: 49%;
-    width: auto;
-    height: auto;
 }
