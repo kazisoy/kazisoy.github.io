@@ -28,25 +28,43 @@ h2 {
     font-weight: 100;
     margin: 0px 0px 0px 0px;
 }
-
+/*
 .presentation {
-    display: inline-block;
     text-align: left;
-    margin: 30px 90px;
+    margin: 30px 0%;
     font-family: Gott;
 }
 
 .eslogan {
     float: right;
     text-align: center;
-    margin: 90px 90px;
+    margin: 90px 0%;
     font-family: "yesteryear";
 }
 
 .presentation,
 .eslogan {
-    width: 33%;
+    width: 50%;
     font-size: 1.3rem;
+}
+*/
+.intro {
+    display: grid;
+    grid-template: 100% / 50% 50%;
+    margin: 50px;
+}
+
+.eslogan {
+    text-align: center;
+    font-family: "yesteryear";
+    font-size: 2.5rem; 
+}
+
+.presentation {
+    text-align: left;
+    margin: 30px 0%;
+    font-family: Gott;
+    font-size: 2rem;
 }
 
 /*Sabias que*/
@@ -54,7 +72,6 @@ h2 {
 h3 {
     font-family: "aisha script";
     font-size: 2rem;
-    margin: 0px;
 
 }
 
