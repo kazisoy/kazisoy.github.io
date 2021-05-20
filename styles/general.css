@@ -21,8 +21,8 @@ header {
 .navegation-bar-pestanas-acercade,
 .navegation-bar-pestanas-contacto {
     font-family: "Yesteryear";
-    color: black;
-    font-size: 1.5rem;
+    color: rgb(84, 27, 33);
+    font-size: 2rem;
     text-decoration: none;
     margin: 1% 1%;
     text-align: center;
@@ -35,8 +35,8 @@ header {
 .navegation-bar-pestanas-acercade:visited,
 .navegation-bar-pestanas-contacto:visited {
     font-family: "Yesteryear";
-    color: black;
-    font-size: 1.5rem;
+    color: rgb(84, 27, 33);
+    font-size: 2rem;
     text-decoration: none;
     margin: 1% 1%;
     text-align: center;
@@ -88,6 +88,13 @@ body {
 footer {
     height: 100%;
     padding: 10px;
-    background-color: saddlebrown;
     text-align: center;
+    color: rgb(215, 169, 173);
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+    font-family: gott;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.68);
+    margin: 50px 10px
 }

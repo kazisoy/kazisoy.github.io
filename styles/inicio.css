@@ -1,80 +1,106 @@
 /*Banner*/
 .kazi-banner {
-    height: 200px;
     font-family: "Aisha Script";
     text-align: center;
     background-image: url(../recourses/backgrounds/fondo-axial.jpg);
     background-size: 100%;
     background-position: 0px 320px;
     background-position: center;
+    background-size: cover;
     max-width: 100%;
     width: auto;
-    height: 200px;
+    height: 450px;
     border: 10px rgba(53, 28, 5, 0.70) solid;
     margin: 20px 0px 0px 0px;
 }
 
 /*Presentacion*/
 h1 {
-    font-size: 5rem;
+    font-size: 10rem;
     color: rgb(245, 207, 43);
     font-weight: 100;
-    margin: 10px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     color: #F1C877;
     font-weight: 100;
     margin: 0px 0px 0px 0px;
 }
-/*
-.presentation {
-    text-align: left;
-    margin: 30px 0%;
-    font-family: Gott;
-}
 
-.eslogan {
-    float: right;
-    text-align: center;
-    margin: 90px 0%;
-    font-family: "yesteryear";
-}
-
-.presentation,
-.eslogan {
-    width: 50%;
-    font-size: 1.3rem;
-}
-*/
 .intro {
     display: grid;
     grid-template: 100% / 50% 50%;
     margin: 50px;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+    border-collapse: collapse;
 }
 
 .eslogan {
     text-align: center;
     font-family: "yesteryear";
     font-size: 2.5rem; 
+    color: rgb(84, 27, 33);
+    margin: 50px 25px;
 }
 
 .presentation {
     text-align: left;
-    margin: 30px 0%;
     font-family: Gott;
     font-size: 2rem;
+    color: rgb(84, 27, 33);
+    margin: 50px 25px;
 }
 
 /*Sabias que*/
 
 h3 {
     font-family: "aisha script";
-    font-size: 2rem;
-
+    font-size: 3rem;
+    margin: 50px 0px 50px 80px;
+    color: rgb(84, 27, 33);
 }
 
+.sabias-que {
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.datos {
+    display: grid;
+    grid-template: auto auto / 50% 50%;
+    grid-gap: 50px 25px;
+    font-size: 2rem;
+    font-family: gott;
+    margin: 10px;
+    text-align: center;
+    color: rgb(84, 27, 33);
+}
+
+.datos p {
+    width: 90%
+}
+
+.datos p span {
+    font-style: italic;
+    color: black;
+}
+
+.sabias-imagen {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    margin: 25px;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+}
+
+/*
 .sabias-imagen {
     max-width: 30%;
     width: auto;
@@ -89,6 +115,7 @@ h3 {
     font-family: gott;
     font-size: 1.2rem;
     text-align: center;
+    color: rgb(84, 27, 33);
 }
 
 .dato-uno {
