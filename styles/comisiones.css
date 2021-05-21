@@ -94,7 +94,7 @@ button {
     font-size: 1.5rem;
     color: rgb(84, 27, 33);
     background-color: #715911;
-    border: solid black 5px;
+    border: solid rgba(53, 28, 5, 0.70) 5px;
 }
 
 .aclaraciones p {
