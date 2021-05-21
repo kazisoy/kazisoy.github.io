@@ -1,0 +1,111 @@
+/*Tabla*/
+
+table {
+    margin: 25px 5px;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+}
+
+td img {
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+    
+}
+
+.A {
+    text-align: center;
+    font-family: gott;
+    color: #FFD966;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background: #512A07;
+}
+
+.A1,
+.A3 {
+    background: #633409
+}
+
+.B,
+.C {
+    background: #3D1317;
+}
+
+.B1,
+.B3,
+.C1,
+.C3 {
+    background: #541B21;
+}
+
+.C {
+    color: #F4B183;
+    font-family: gott;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.D {
+    font-family: gott;
+    text-align: center;
+    color: #F4B183;
+    background: #8C1818;
+    font-size: 1.5rem;
+}
+
+.D1,
+.D3 {
+    background: #AB1D1D;
+}
+
+td span {
+    font-size: 1rem;
+}
+
+td p {
+    margin: 10px;
+}
+
+/*Aclaraciones*/
+
+h2 {
+    font-family: "aisha script";
+    font-size: 3rem;
+    margin: 50px 0px 50px 80px;
+    color: rgb(84, 27, 33);
+}
+
+.aclaraciones {
+    display: grid;
+    grid-template: auto / 50% 50%;
+}
+
+button {
+    max-width: 100%;
+    width: auto;
+    height: 50px;
+    margin: 230px 50px 0px 50px;
+    font-family: gott;
+    font-size: 1.5rem;
+    color: rgb(84, 27, 33);
+    background-color: #715911;
+    border: solid black 5px;
+}
+
+.aclaraciones p {
+    text-align: left;
+    font-family: Gott;
+    font-size: 2rem;
+    color: rgb(84, 27, 33);
+    margin: 50px 25px;
+}
+
+.aclaraciones p a:hover {
+    color: #715911;
+    
+}
