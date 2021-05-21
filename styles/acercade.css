@@ -1,0 +1,29 @@
+h2 {
+    font-family: "aisha script";
+    font-size: 8rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 30px
+}
+
+.img {
+    text-align: center;
+}
+
+p img {
+    width: 40%;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.txt {
+    text-align: center;
+    font-size: 2rem;
+    font-family: gott;
+    margin: 20px 10%;
+}
+
+.negritas {
+    font-weight: bolder;
+}

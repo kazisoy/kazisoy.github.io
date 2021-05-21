@@ -8,7 +8,7 @@ h1 {
     background-size: cover;
     max-width: 100%;
     width: auto;
-    height: 120px;
+    height: auto;
     border: 10px rgba(53, 28, 5, 0.70) solid;
     margin: 20px 0px 0px 0px;
     font-size: 4rem;
