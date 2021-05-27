@@ -95,6 +95,7 @@ button {
     color: rgb(84, 27, 33);
     background-color: #715911;
     border: solid rgba(53, 28, 5, 0.70) 5px;
+    cursor: pointer;
 }
 
 .aclaraciones p {

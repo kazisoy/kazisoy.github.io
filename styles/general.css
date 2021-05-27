@@ -80,7 +80,7 @@ header {
 
 body {
     background-image: url(../recourses/backgrounds/papel-1900x1200.jpg);
-    background-size: contain;
+    background-size: 100%;
 }
 
 /*Pie de pagina*/
