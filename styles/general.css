@@ -5,6 +5,7 @@ header {
     border-color: rgba(53, 28, 5, 0.70);
     border-style: solid;
     border-width: 10px;
+    background: linear-gradient(to bottom, #eacba6 1%,#d2ad80, #eacba6 99%)
 }
 
 .navegation-bar-pestanas {
@@ -79,8 +80,8 @@ header {
 
 
 body {
-    background-image: url(../recourses/backgrounds/papel-1900x1200.jpg);
-    background-size: 100%;
+    background-image: url(../recourses/backgrounds/patron.jpg);
+    background-size: 40px;
 }
 
 /*Pie de pagina*/

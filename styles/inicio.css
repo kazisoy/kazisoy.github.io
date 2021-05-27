@@ -34,7 +34,7 @@ h2 {
     grid-template: 100% / 50% 50%;
     margin: 50px;
     border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
+    /*border-style: solid;*/
     border-width: 10px;
     border-collapse: collapse;
     align-items: center;
@@ -62,13 +62,13 @@ h2 {
 h3 {
     font-family: "aisha script";
     font-size: 3rem;
-    margin: 50px 0px 50px 80px;
+    margin: 50px 0px 50px 10%;
     color: rgb(84, 27, 33);
 }
 
 .sabias-que {
     border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
+    /*border-style: solid;*/
     border-width: 10px;
 }
 
@@ -76,7 +76,7 @@ h3 {
     display: grid;
     grid-template: auto auto / 50% 50%;
     grid-gap: 50px 25px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: gott;
     margin: 10px;
     text-align: center;
