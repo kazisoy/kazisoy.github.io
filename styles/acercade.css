@@ -1,3 +1,5 @@
+/*ETIQUETAS*/
+
 h2 {
     font-family: "aisha script";
     font-size: 8rem;
@@ -6,15 +8,19 @@ h2 {
     margin: 30px;
 }
 
-.img {
-    text-align: center;
-}
+/*ANIDADOS*/
 
 p img {
     width: 40%;
     border-color: rgba(53, 28, 5, 0.70);
     border-style: solid;
     border-width: 10px;
+}
+
+/*CLASES*/
+
+.img {
+    text-align: center;
 }
 
 .txt {

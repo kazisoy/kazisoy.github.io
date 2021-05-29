@@ -1,12 +1,33 @@
-/*Barra de acciones*/
+/*ETIQUETAS*/
 
 header { 
     height: 100%;
     border-color: rgba(53, 28, 5, 0.70);
     border-style: solid;
     border-width: 10px;
-    background: linear-gradient(to bottom, #eacba6 1%,#d2ad80, #eacba6 99%)
+    background: linear-gradient(to bottom, #eacba6 1%,#d2ad80, #eacba6 99%);
 }
+
+body {
+    background-image: url(../recourses/backgrounds/patron.jpg);
+    background-size: 40px;
+}
+
+footer {
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(215, 169, 173);
+    border-color: rgba(53, 28, 5, 0.70);
+    border-style: solid;
+    border-width: 10px;
+    font-family: gott;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.68);
+    margin: 50px 10px;
+}
+
+/*CLASES*/
 
 .navegation-bar-pestanas {
     display: inline-flex;
@@ -47,7 +68,7 @@ header {
 .navegation-bar {
     width: 100%;
     display: grid;
-    grid-template: auto / 8% 1fr 10%
+    grid-template: auto / 8% 1fr 10%;
 }
 
 .navegation-bar-firma {
@@ -72,30 +93,6 @@ header {
     display: inline-block;
 }
 
-/*Fondo*/
-
 .content {
     height: 100%;
-}
-
-
-body {
-    background-image: url(../recourses/backgrounds/patron.jpg);
-    background-size: 40px;
-}
-
-/*Pie de pagina*/
-
-footer {
-    height: 100%;
-    padding: 10px;
-    text-align: center;
-    color: rgb(215, 169, 173);
-    border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
-    border-width: 10px;
-    font-family: gott;
-    font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.68);
-    margin: 50px 10px
 }
