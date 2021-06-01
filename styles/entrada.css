@@ -1,5 +1,5 @@
 h1 {
-    font-family: "Aisha Script";
+    font-family: "Bahnschrift SemiBold";
     background-image: url(../recourses/backgrounds/fondo-axial.jpg);
     background-size: 100%;
     background-position: 0px 320px;
@@ -10,8 +10,7 @@ h1 {
     height: auto;
     border: 10px rgba(53, 28, 5, 0.70) solid;
     margin: 20px 0px 0px 0px;
-    font-size: 4rem;
+    font-size: 8vw;
     color: rgb(245, 207, 43);
-    font-weight: 100;
     margin: 30px 0px 0px 0px;
 }

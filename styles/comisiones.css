@@ -1,8 +1,8 @@
 /*ETIQUETAS*/
 
 h2 {
-    font-family: "aisha script";
-    font-size: 3rem;
+    font-family: "Bahnschrift";
+    font-size: 4vw;
     margin: 50px 0px 50px 80px;
     color: rgb(84, 27, 33);
 }
@@ -19,7 +19,7 @@ button {
     width: auto;
     height: 50px;
     margin: 230px 50px 0px 50px;
-    font-family: gott;
+    font-family: "Bahnschrift";
     font-size: 1.5rem;
     color: rgb(84, 27, 33);
     background-color: #715911;
@@ -39,7 +39,7 @@ td img {
 }
 
 td span {
-    font-size: 1rem;
+    font-size: 1.8vw;
 }
 
 td p {
@@ -48,8 +48,8 @@ td p {
 
 .aclaraciones p {
     text-align: left;
-    font-family: Gott;
-    font-size: 2rem;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
     color: rgb(84, 27, 33);
     margin: 50px 25px;
 }
@@ -62,9 +62,9 @@ td p {
 
 .A {
     text-align: center;
-    font-family: gott;
+    font-family: "Bahnschrift";
     color: #FFD966;
-    font-size: 1.5rem;
+    font-size: 3vw;
     font-weight: 100;
     background: #512A07;
 }
@@ -88,17 +88,17 @@ td p {
 
 .C {
     color: #F4B183;
-    font-family: gott;
+    font-family: "Bahnschrift light";
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2.5vw;
 }
 
 .D {
-    font-family: gott;
+    font-family: "Bahnschrift light";
     text-align: center;
     color: #F4B183;
     background: #8C1818;
-    font-size: 1.5rem;
+    font-size: 2.5vw;
 }
 
 .D1,

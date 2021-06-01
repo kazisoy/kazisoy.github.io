@@ -1,9 +1,8 @@
 /*ETIQUETAS*/
 
 h2 {
-    font-family: "aisha script";
-    font-size: 8rem;
-    font-weight: 100;
+    font-family: "Bahnschrift semibold";
+    font-size: 10vw;
     text-align: center;
     margin: 30px;
 }
@@ -25,8 +24,8 @@ p img {
 
 .txt {
     text-align: center;
-    font-size: 2rem;
-    font-family: gott;
+    font-size: 2.5vw;
+    font-family: "Bahnschrift light";
     margin: 20px 10%;
 }
 

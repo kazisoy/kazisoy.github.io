@@ -1,89 +1,29 @@
-/*Banner*/
-.kazi-banner {
-    font-family: "Aisha Script";
-    text-align: center;
-    background-image: url(../recourses/backgrounds/fondo-axial.jpg);
-    background-size: 100%;
-    background-position: 0px 320px;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    width: auto;
-    height: 450px;
-    border: 10px rgba(53, 28, 5, 0.70) solid;
-    margin: 20px 0px 0px 0px;
-}
+/*ETIQUETAS*/
 
-/*Presentacion*/
 h1 {
-    font-size: 10rem;
+    font-family: "Bahnschrift Semibold";
+    font-size: 18vw;
     color: rgb(245, 207, 43);
-    font-weight: 100;
     margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-family: "Bahnschrift";
+    font-size: 3.8vw;
     color: #F1C877;
-    font-weight: 100;
     margin: 0px 0px 0px 0px;
+    padding: 0px 0px 40px 0px;
 }
-
-.intro {
-    display: grid;
-    grid-template: 100% / 50% 50%;
-    margin: 50px;
-    border-color: rgba(53, 28, 5, 0.70);
-    /*border-style: solid;*/
-    border-width: 10px;
-    border-collapse: collapse;
-    align-items: center;
-    justify-content: center;
-}
-
-.eslogan {
-    text-align: center;
-    font-family: "yesteryear";
-    font-size: 2.5rem; 
-    color: rgb(84, 27, 33);
-    margin: 50px 25px;
-}
-
-.presentation {
-    text-align: left;
-    font-family: Gott;
-    font-size: 2rem;
-    color: rgb(84, 27, 33);
-    margin: 50px 25px;
-}
-
-/*Sabias que*/
 
 h3 {
-    font-family: "aisha script";
-    font-size: 3rem;
+    font-family: "Bahnschrift";
+    font-size: 4vw;
     margin: 50px 0px 50px 10%;
     color: rgb(84, 27, 33);
 }
 
-.sabias-que {
-    border-color: rgba(53, 28, 5, 0.70);
-    /*border-style: solid;*/
-    border-width: 10px;
-}
-
-.datos {
-    display: grid;
-    grid-template: auto auto / 50% 50%;
-    grid-gap: 50px 25px;
-    font-size: 1.7rem;
-    font-family: gott;
-    margin: 10px;
-    text-align: center;
-    color: rgb(84, 27, 33);
-    align-items: center;
-    justify-content: center;
-}
+/*ANIDADOS*/
 
 .datos p {
     width: 90%
@@ -92,6 +32,67 @@ h3 {
 .datos p span {
     font-style: italic;
     color: black;
+}
+
+/*CLASES*/
+
+.kazi-banner {
+    text-align: center;
+    background-image: url(../recourses/backgrounds/fondo-axial.jpg);
+    background-size: 100%;
+    background-position: 0px 320px;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    width: auto;
+}
+
+.intro {
+    display: grid;
+    grid-template: 100% / 50% 50%;
+    margin: 50px;
+    border-color: rgba(53, 28, 5, 0.70);
+    border-width: 10px;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+}
+
+.eslogan {
+    text-align: center;
+    font-family: "Bahnschrift Light";
+    font-size: 3vw; 
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(84, 27, 33);
+    margin: 50px 25px;
+}
+
+.presentation {
+    text-align: left;
+    font-family: "Bahnschrift Light";
+    font-size: 2.5vw;
+    color: rgb(84, 27, 33);
+    margin: 50px 25px;
+}
+
+
+.sabias-que {
+    border-color: rgba(53, 28, 5, 0.70);
+    border-width: 2.5vw;
+}
+
+.datos {
+    display: grid;
+    grid-template: auto auto / 50% 50%;
+    grid-gap: 50px 25px;
+    font-size: 2.5vw;
+    font-family: "Bahnschrift Light";
+    margin: 10px 50px;
+    text-align: center;
+    color: rgb(84, 27, 33);
+    align-items: center;
+    justify-content: center;
 }
 
 .sabias-imagen {
