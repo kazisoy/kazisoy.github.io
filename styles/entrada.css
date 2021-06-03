@@ -1,16 +1,15 @@
 h1 {
-    font-family: "Bahnschrift SemiBold";
-    background-image: url(../recourses/backgrounds/fondo-axial.jpg);
-    background-size: 100%;
-    background-position: 0px 320px;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    border: 10px rgba(53, 28, 5, 0.70) solid;
-    margin: 20px 0px 0px 0px;
-    font-size: 8vw;
-    color: #FFE285;
-    margin: 30px 0px 0px 0px;
+    font-family: "Bahnschrift SemiBold" !important;
+    background-image: url(../recourses/backgrounds/fondo-axial.jpg) !important;
+    background-size: 100% !important;
+    background-position: 0px 320px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    font-size: 8vw !important;
+    color: #FFE285 !important;
+    margin: 3% 2% !important; 
+    padding: 1% 2% !important;
 }

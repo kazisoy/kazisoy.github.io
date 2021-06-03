@@ -40,7 +40,7 @@ footer {
 .navegation-bar-pestanas-contacto {
     font-family: "Bahnschrift";
     color: rgb(255, 255, 255);
-    font-size: 2vw;
+    font-size: 1vw;
     text-decoration: none;
     margin: 1% 1%;
     text-align: center;
@@ -48,9 +48,9 @@ footer {
     position: relative;	
     box-shadow: 0px 0px 3px 2px rgba(80, 43, 3, 0.68);
     background-color: #C55A11;
-    padding: 1%;
-    transition: background-color 10s linear 0s;
-    transition: box-shadow 10s linear 0s;
+    padding: 2%;
+    transition: background-color 1s linear 0s;
+    transition: box-shadow 1s linear 0s;
 }
 
 .navegation-bar-pestanas-inicio:hover,

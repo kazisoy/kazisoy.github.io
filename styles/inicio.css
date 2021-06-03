@@ -39,7 +39,7 @@ h3 {
     text-align: left;
 }
 
-span {
+p span {
     font-style: italic;
     color: black;
 }
@@ -109,21 +109,22 @@ span {
 }
 
 .dato-uno {
-    margin: 5%;
+    margin: 10%;
 }
 
 .dato-dos {
-    margin: 5%;
+    margin: 10%;
 }
 
 .dato-tres {
-    margin: 9%;
+    margin: 10%;
     display: block;
 }
 
 .zona-a {
     grid-area: zonaa;
     background: #F8CBAD;
+    padding: 20px;
 }
 
 .zona-b {
@@ -150,4 +151,37 @@ span {
 .zona-z {
     grid-area: zonaz;
     background: #95440D
+}
+
+.puntoa {
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-name: tres-puntos;
+    animation-iteration-count: infinite;
+}
+
+.puntob {
+    animation-duration: 500ms;
+    animation-delay: 100ms;
+    animation-timing-function: ease-in-out;
+    animation-name: tres-puntos;
+    animation-iteration-count: infinite;
+}
+
+.puntoc {
+    animation-duration: 500ms;
+    animation-delay: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-name: tres-puntos;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tres-puntos {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
 }
