@@ -1,20 +1,80 @@
 /*ETIQUETAS*/
 
+body {
+    display: grid;
+    grid-template-areas: 
+        "zonaa zonaa zonaa" 
+        "zonaa1 zonaa2 zonaa3"
+        "zonab1 zonab2 zonab3"
+        "zonac1 zonac2 zonac3"
+        "zonad1 zonad2 zonad3"
+        "zonax zonax zonax" 
+        "zonaz zonaz zonaz";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e17e3c;
+}
+
 h2 {
     font-family: "Bahnschrift";
     font-size: 4vw;
-    margin: 50px 0px 50px 80px;
     color: rgb(84, 27, 33);
-}
-
-table {
-    margin: 25px 5px;
-    border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
-    border-width: 10px;
+    float: left;
+    clear: left;
+    margin: 10% 0% 5% 7%;
 }
 
 button {
+    width: 30%;
+    height: 40px;
+    float: right;
+    font-family: "Bahnschrift";
+    font-size: 2vw;
+    color: rgb(250, 221, 205);
+    background-color: #C55A11;
+    cursor: pointer;
+    margin: 5%;
+    border: none;
+    box-shadow: 0px 0px 3px 2px rgba(80, 43, 3, 0.68);
+    transition: box-shadow 200ms ease 0s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+    background-color: #C55A11;	
+    box-shadow: inset 0px 0px 9px 5px rgba(38, 20, 0, 0.52);
+}
+
+div.aclaraciones-txt p {
+    float: left;
+    width: 50%;
+    clear: left;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    color: rgb(84, 27, 33);
+    margin: 0% 0% 10% 3%;
+}
+
+div.aclaraciones-txt p a:hover {
+    color: #493908;
+}
+
+p {
+    color: rgb(84, 27, 33);
+}
+
+footer p {
+    color: #D7A9AD;
+}
+
+/*button {
     max-width: 100%;
     width: auto;
     height: 50px;
@@ -27,24 +87,9 @@ button {
     cursor: pointer;
 }
 
-/*ANIDADOS*/
+/*ANIDADOS*/        /*
 
-td img {
-    max-width: 90%;
-    width: auto;
-    height: auto;
-    border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
-    border-width: 10px; 
-}
 
-td span {
-    font-size: 1.8vw;
-}
-
-td p {
-    margin: 10px;
-}
 
 .aclaraciones p {
     text-align: left;
@@ -58,55 +103,147 @@ td p {
     color: #715911;
 }
 
-/*CLASES*/
-
-.A {
-    text-align: center;
-    font-family: "Bahnschrift";
-    color: #FFD966;
-    font-size: 3vw;
-    font-weight: 100;
-    background: #512A07;
-}
-
-.A1,
-.A3 {
-    background: #633409;
-}
-
-.B,
-.C {
-    background: #3D1317;
-}
-
-.B1,
-.B3,
-.C1,
-.C3 {
-    background: #541B21;
-}
-
-.C {
-    color: #F4B183;
-    font-family: "Bahnschrift light";
-    text-align: center;
-    font-size: 2.5vw;
-}
-
-.D {
-    font-family: "Bahnschrift light";
-    text-align: center;
-    color: #F4B183;
-    background: #8C1818;
-    font-size: 2.5vw;
-}
-
-.D1,
-.D3 {
-    background: #AB1D1D;
-}
+/*CLASES*/ /*
+                    
 
 .aclaraciones {
     display: grid;
     grid-template: auto / 50% 50%;
+}  */
+
+.zona-a {
+    grid-area: zonaa;
+    background: #F8CBAD;
+}
+
+.A1 {
+    grid-area: zonaa1;
+    text-align: center;
+    text-align: center;
+    font-family: "Bahnschrift";
+    font-size: 3vw;
+    background: #F4B184;
+    margin: 0px;
+    padding: 10%;
+}
+
+.A2 {
+    grid-area: zonaa2;
+    text-align: center;
+    font-family: "Bahnschrift";
+    font-size: 3vw;
+    background: #EE853E;
+    margin: 0px;
+    padding: 10%;
+}
+
+.A3 {
+    grid-area: zonaa3;
+    text-align: center;
+    font-family: "Bahnschrift";
+    font-size: 3vw;
+    background: #DF6613;
+    margin: 0px;
+    padding: 15.5% 28.6%;
+}
+
+.B1 {
+    grid-area: zonab1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.B2 {
+    grid-area: zonab2;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.B3 {
+    grid-area: zonab3;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.C1 {
+    grid-area: zonac1;
+    text-align: center;
+    margin: 0px;
+    padding: 23% 1%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background: #F2A068;
+}
+
+.C2 {
+    grid-area: zonac2;
+    text-align: center;
+    margin: 0px;
+    padding: 27.6% 1%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background: #ED7C2F;
+}
+
+.C3 {
+    grid-area: zonac3;
+    text-align: center;
+    margin: 0px;
+    padding: 18.4% 1%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background-color: #C95B11;
+}
+
+.D1 {
+    grid-area: zonad1;
+    text-align: center;
+    margin: 0px;
+    padding: 15% 15%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background: #F09252
+}
+
+.D2 {
+    grid-area: zonad2;
+    text-align: center;
+    margin: 0px;
+    padding: 15% 15%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background: #EC7320
+}
+
+.D3 {
+    grid-area: zonad3;
+    text-align: center;
+    margin: 0px;
+    padding: 15% 1%;
+    font-family: "Bahnschrift light";
+    font-size: 2.5vw;
+    background: #B1510F
+}
+
+.D1 span,
+.D2 span,
+.D3 span {
+    font-size: 1.8vw;
+}
+
+.zona-x {
+    grid-area: zonax;
+    background: #EE853E;
+}
+
+.zona-z {
+    grid-area: zonaz;
+    background: #95440D;
+    width: 100%;
 }

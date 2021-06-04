@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 footer {
@@ -49,15 +49,23 @@ footer {
     box-shadow: 0px 0px 3px 2px rgba(80, 43, 3, 0.68);
     background-color: #C55A11;
     padding: 2%;
-    transition: background-color 1s linear 0s;
-    transition: box-shadow 1s linear 0s;
+    transition: background-color 200ms linear 0s;
+    transition: box-shadow 200ms linear 0s;
 }
 
 .navegation-bar-pestanas-inicio:hover,
 .navegation-bar-pestanas-portafolio:hover,
 .navegation-bar-pestanas-comisiones:hover,
 .navegation-bar-pestanas-acercade:hover,
-.navegation-bar-pestanas-contacto:hover{
+.navegation-bar-pestanas-contacto:hover {
+    transform: scale(1.05);
+}
+
+.navegation-bar-pestanas-inicio:active,
+.navegation-bar-pestanas-portafolio:active,
+.navegation-bar-pestanas-comisiones:active,
+.navegation-bar-pestanas-acercade:active,
+.navegation-bar-pestanas-contacto:active {
     background-color: #C55A11;	
     box-shadow: inset 0px 0px 9px 5px rgba(38, 20, 0, 0.52);
 }
