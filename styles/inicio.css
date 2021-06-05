@@ -123,8 +123,8 @@ p span {
 
 .zona-a {
     grid-area: zonaa;
-    background: #F8CBAD;
-    padding: 20px;
+    background: #F8CBAD;    
+    padding: 0px 0px 20px 0px;
 }
 
 .zona-b {
