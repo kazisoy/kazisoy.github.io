@@ -1,19 +1,30 @@
 /*ETIQUETAS*/
 
+body {
+    display: grid;
+    grid-template-areas: 
+        "zonaa" 
+        "zonab" 
+        "zonac" 
+        "zonad"
+        "zonaz";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    margin: 0px;
+}
+
 h2 {
     font-family: "Bahnschrift semibold";
     font-size: 10vw;
     text-align: center;
     margin: 30px;
+    color: rgb(84, 27, 33);
 }
 
 /*ANIDADOS*/
 
 p img {
     width: 40%;
-    border-color: rgba(53, 28, 5, 0.70);
-    border-style: solid;
-    border-width: 10px;
 }
 
 /*CLASES*/
@@ -27,8 +38,30 @@ p img {
     font-size: 2.5vw;
     font-family: "Bahnschrift light";
     margin: 20px 10%;
+    color: rgb(84, 27, 33);
 }
 
 .negritas {
     font-weight: bolder;
+    color: rgb(84, 27, 33);
+}
+
+.zona-a {
+    background: #F8CBAD;
+}
+
+.zona-b {
+    background: #F4B184;
+}
+
+.zona-c {
+    background: #F2A16A;
+}
+
+.zona-d {
+    background: #EE833A;
+}
+
+.zona-z {
+    background: #95440D;
 }
