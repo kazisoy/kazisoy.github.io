@@ -1,8 +1,12 @@
+/*ETIQUETAS*/
+
 body {
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0px;
     background: black;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 img {

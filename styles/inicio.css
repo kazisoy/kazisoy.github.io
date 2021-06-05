@@ -10,6 +10,8 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto;
     margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 h1 {
@@ -38,6 +40,8 @@ h3 {
     align-self: flex-start;
     text-align: left;
 }
+
+/*ANIDADOS*/
 
 p span {
     font-style: italic;
@@ -85,17 +89,6 @@ p span {
     color: rgb(84, 27, 33);
     margin: 50px 25px;
 }
-
-/*.datos {
-    display: grid;
-    grid-template: 50% 50% / 50% 50%;
-    grid-gap: 50px 0px;
-    font-size: 2.5vw;
-    font-family: "Bahnschrift Light";
-    color: rgb(84, 27, 33);
-    align-items: center;
-    justify-content: center;
-}*/
 
 .sabias-imagen {
     width: 120%;
@@ -175,6 +168,8 @@ p span {
     animation-name: tres-puntos;
     animation-iteration-count: infinite;
 }
+
+/*FRAMES*/
 
 @keyframes tres-puntos {
     from {

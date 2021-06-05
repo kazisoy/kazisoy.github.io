@@ -16,6 +16,8 @@ body {
     align-items: center;
     justify-items: center;
     background-color: #e17e3c;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 h2 {
@@ -52,6 +54,16 @@ button:active {
     box-shadow: inset 0px 0px 9px 5px rgba(38, 20, 0, 0.52);
 }
 
+h4 {
+    margin: 0px;
+}
+
+p {
+    color: rgb(84, 27, 33);
+}
+
+/*ANIDADOS*/
+
 div.aclaraciones-txt p {
     float: left;
     width: 50%;
@@ -66,50 +78,50 @@ div.aclaraciones-txt p a:hover {
     color: #493908;
 }
 
-p {
-    color: rgb(84, 27, 33);
-}
-
 footer p {
     color: #D7A9AD;
 }
 
-/*button {
-    max-width: 100%;
-    width: auto;
-    height: 50px;
-    margin: 230px 50px 0px 50px;
-    font-family: "Bahnschrift";
-    font-size: 1.5rem;
-    color: rgb(84, 27, 33);
-    background-color: #715911;
-    border: solid rgba(53, 28, 5, 0.70) 5px;
-    cursor: pointer;
+.D1 span,
+.D2 span,
+.D3 span {
+    font-size: 1.8vw;
 }
 
-/*ANIDADOS*/        /*
-
-
-
-.aclaraciones p {
-    text-align: left;
-    font-family: "Bahnschrift light";
-    font-size: 2.5vw;
-    color: rgb(84, 27, 33);
-    margin: 50px 25px;
+div.A2 h4 ,
+div.A3 h4 {
+    margin: 9% 0px;
 }
 
-.aclaraciones p a:hover {
-    color: #715911;
+div.A1 h4 {
+    margin: 3% 0px;
 }
 
-/*CLASES*/ /*
-                    
+div.C1 p {
+    margin: 8% 1%;
+}
 
-.aclaraciones {
-    display: grid;
-    grid-template: auto / 50% 50%;
-}  */
+div.C2 p {
+    margin: 12% 1%;
+}
+
+div.C3 p {
+    margin: 3% 1%;
+}
+
+div.D1 p {
+    margin: 10% 1%;
+}
+
+div.D2 p {
+    margin: 10% 1%;
+}
+
+div.D3 p {
+    margin: 5% 1%;
+}
+
+/*CLASES*/
 
 .zona-a {
     grid-area: zonaa;
@@ -117,34 +129,33 @@ footer p {
 }
 
 .A1 {
+    width: 100%;
+    height: 100%;
     grid-area: zonaa1;
-    text-align: center;
     text-align: center;
     font-family: "Bahnschrift";
     font-size: 3vw;
     background: #F4B184;
-    margin: 0px;
-    padding: 10%;
 }
 
 .A2 {
+    width: 100%;
+    height: 100%;
     grid-area: zonaa2;
     text-align: center;
     font-family: "Bahnschrift";
     font-size: 3vw;
     background: #EE853E;
-    margin: 0px;
-    padding: 10%;
 }
 
 .A3 {
+    width: 100%;
+    height: 100%;
     grid-area: zonaa3;
     text-align: center;
     font-family: "Bahnschrift";
     font-size: 3vw;
     background: #DF6613;
-    margin: 0px;
-    padding: 15.5% 28.6%;
 }
 
 .B1 {
@@ -172,10 +183,10 @@ footer p {
 }
 
 .C1 {
+    height: 100%;
+    width: 100%;
     grid-area: zonac1;
     text-align: center;
-    margin: 0px;
-    padding: 23% 1%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background: #F2A068;
@@ -184,8 +195,8 @@ footer p {
 .C2 {
     grid-area: zonac2;
     text-align: center;
-    margin: 0px;
-    padding: 27.6% 1%;
+    height: 100%;
+    width: 100%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background: #ED7C2F;
@@ -194,8 +205,8 @@ footer p {
 .C3 {
     grid-area: zonac3;
     text-align: center;
-    margin: 0px;
-    padding: 18.4% 1%;
+    height: 100%;
+    width: 100%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background-color: #C95B11;
@@ -204,8 +215,8 @@ footer p {
 .D1 {
     grid-area: zonad1;
     text-align: center;
-    margin: 0px;
-    padding: 15% 15%;
+    height: 100%;
+    width: 100%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background: #F09252
@@ -214,8 +225,8 @@ footer p {
 .D2 {
     grid-area: zonad2;
     text-align: center;
-    margin: 0px;
-    padding: 15% 15%;
+    height: 100%;
+    width: 100%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background: #EC7320
@@ -224,17 +235,11 @@ footer p {
 .D3 {
     grid-area: zonad3;
     text-align: center;
-    margin: 0px;
-    padding: 15% 1%;
+    height: 100%;
+    width: 100%;
     font-family: "Bahnschrift light";
     font-size: 2.5vw;
     background: #B1510F
-}
-
-.D1 span,
-.D2 span,
-.D3 span {
-    font-size: 1.8vw;
 }
 
 .zona-x {
