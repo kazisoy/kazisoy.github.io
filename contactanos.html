@@ -50,21 +50,21 @@
     </div>
     <div class="zona-b">
        
-        <form>
+        <form action="contact.php" method="post">
 
-            <label for="form-name">Nombre:</label>
+            <label for="nombre">Nombre:</label>
                 <br>
-            <input id="form-name" name="form-name">
+            <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="">
                 <br>
-            <label for="form-email">E-mail:</label>
+            <label for="email">E-mail:</label>
                 <br>
-            <input id="form-email" type="email" name="form-email">
+            <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="">
                 <br>
-            <label for="form-mesage">Mensaje:</label>
+            <label for="mensaje">Mensaje:</label>
                 <br>
-            <textarea id="form-mesage" name="form-mesage"></textarea>
+            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
                 <br> 
-            <button type="submit">Enviar</button>
+            <input id="submit" type="submit" name="submit" value="Enviar">
 
         </form>
         
