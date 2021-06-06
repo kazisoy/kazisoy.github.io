@@ -221,4 +221,7 @@ p span {
         margin: 5% 5% 5% 5%;
     }
     
+    .presentation {
+    text-align: center;
+    }
 }
