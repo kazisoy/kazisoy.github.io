@@ -116,3 +116,21 @@ a {
     height: 100%;
 }
 
+/*MEDIOS*/
+
+@media only screen and (orientation: portrait)    {
+    
+    footer {
+        font-size: 1vw;
+    }
+    
+    .navegation-bar-pestanas-inicio,
+    .navegation-bar-pestanas-portafolio,
+    .navegation-bar-pestanas-comisiones,
+    .navegation-bar-pestanas-acercade,
+    .navegation-bar-pestanas-contacto {
+        font-size: 2vw;
+        padding: 1%;
+    }
+    
+}
