@@ -252,3 +252,25 @@ div.D3 p {
     background: #95440D;
     width: 100%;
 }
+
+/*MEDIOS*/
+
+@media only screen and (orientation: portrait)    {
+    
+    h2 {
+        float: none;
+    }
+    
+    button {
+        float: none;
+        margin: 5% 5% 5% 35%;
+        height: 50px;
+    }
+    
+    div.aclaraciones-txt p {
+        width: auto;
+        float: none;
+        margin: 3%;
+    }
+    
+}

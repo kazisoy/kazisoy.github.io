@@ -210,7 +210,7 @@ p span {
     }
     
     .dato-uno {
-    margin: 5%;
+        margin: 5%;
     }
 
     .dato-dos {
@@ -222,6 +222,6 @@ p span {
     }
     
     .presentation {
-    text-align: center;
+        text-align: center;
     }
 }
