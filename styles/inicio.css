@@ -180,3 +180,42 @@ p span {
         opacity: 0;
     }
 }
+
+/*MEDIOS*/
+
+@media only screen and (orientation: portrait)    {
+    
+    body {
+    grid-template-areas: 
+        "zonaa" 
+        "zonab" 
+        "zonac"
+        "zonad"
+        "zonaz";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    }
+    
+    .sabias-imagen {
+    width: 120%;
+    height: 500px;
+    background-image: url(../recourses/images/images.jpg); /*exposicion -60*/
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F09252;
+    }
+    
+    .dato-uno {
+    margin: 5%;
+    }
+
+    .dato-dos {
+        margin: 5%;
+    }
+
+    .dato-tres {
+        margin: 5% 5% 0% 5%;
+    }
+    
+}
