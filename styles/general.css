@@ -13,7 +13,7 @@ body {
     width: 100%;
 }
 
-footer {
+footer { 
     padding: 10px;
     text-align: center;
     color: #D7A9AD;
@@ -22,10 +22,6 @@ footer {
     background-color: #70330A;
     margin: 10px;
     display: block;
-}
-
-a {
-    
 }
 
 /*CLASES*/
@@ -120,10 +116,6 @@ a {
 
 @media only screen and (orientation: portrait)    {
     
-    footer {
-        font-size: 1vw;
-    }
-    
     .navegation-bar-pestanas-inicio,
     .navegation-bar-pestanas-portafolio,
     .navegation-bar-pestanas-comisiones,
@@ -131,6 +123,10 @@ a {
     .navegation-bar-pestanas-contacto {
         font-size: 2vw;
         padding: 1%;
+    }
+    
+    footer {
+        font-size: 1.5vw !important;
     }
     
 }

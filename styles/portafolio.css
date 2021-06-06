@@ -116,3 +116,14 @@ div.row div a img {
         border-radius: 0;
     }
 }
+
+@media only screen and (orientation: portrait)    {
+    .row {
+        display: grid;
+        grid-template: 1fr / 1fr 1fr;
+        grid-auto-rows: 1fr;
+        grid-gap: 1%;
+        margin: 0% 0% 200px 0%;
+        height: 100%;
+    }
+}
