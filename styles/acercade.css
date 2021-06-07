@@ -69,3 +69,17 @@ p img {
 .zona-z {
     background: #95440D;
 }
+
+/*MEDIOS*/
+
+@media only screen and (orientation: portrait)    {
+    
+    body {
+        grid-template-rows: auto auto auto 30% auto;
+    }
+    
+    .txt {
+        margin: 13% 2% 0% 2%; 
+    }
+    
+}
