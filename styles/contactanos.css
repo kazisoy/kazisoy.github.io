@@ -105,3 +105,40 @@ label {
     grid-area: zonaz;
     background: #95440D
 }
+
+/*MEDIOS*/
+
+@media only screen and (orientation: portrait)    {
+    
+    body {
+        background: #52260b;
+        grid-template-areas: 
+            "zonaa" 
+            "zonab"
+            "zonac"
+            "zonaz";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+    
+    label {
+        font-size: 4.5vw;
+    }
+    
+    #form-name,
+    #form-email,
+    #form-mesage {
+        height: 5vw;
+    }
+    
+    #form-mesage {
+        height: 15vw;
+    }
+    
+    .redes-grupo {
+        font-size: 3vw;
+        margin: 10% 0%;
+    }
+    
+    
+}

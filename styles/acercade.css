@@ -74,6 +74,10 @@ p img {
 
 @media only screen and (orientation: portrait)    {
 
+    body {
+        background: #52260b;
+    }
+    
     .txt {
         margin: 13% 2% 13% 2%; 
     }

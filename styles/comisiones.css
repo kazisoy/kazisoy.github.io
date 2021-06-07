@@ -257,6 +257,10 @@ div.D3 p {
 
 @media only screen and (orientation: portrait)    {
     
+    body {
+        background: #52260b;
+    }
+    
     h2 {
         float: none;
     }
