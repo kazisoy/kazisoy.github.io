@@ -118,6 +118,7 @@ div.row div a img {
 }
 
 @media only screen and (orientation: portrait)    {
+
     .row {
         display: grid;
         grid-template: 1fr / 1fr 1fr;

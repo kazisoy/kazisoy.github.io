@@ -126,8 +126,7 @@ footer {
     }
     
     footer {
-        font-size: 1.5vw !important;
-        width: auto;
+        font-size: 0.5rem !important;
     }
     
 }
