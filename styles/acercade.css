@@ -73,13 +73,9 @@ p img {
 /*MEDIOS*/
 
 @media only screen and (orientation: portrait)    {
-    
-    body {
-        grid-template-rows: auto auto auto 30% auto;
-    }
-    
+
     .txt {
-        margin: 13% 2% 0% 2%; 
+        margin: 13% 2% 13% 2%; 
     }
     
 }
